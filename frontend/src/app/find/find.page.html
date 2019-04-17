@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Find</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form (ngSubmit)="find()">
+    <ion-item>
+      <ion-label>ID</ion-label>
+      <ion-input name="id" id="id" type="text"></ion-input>
+    </ion-item>
+    <button ion-button block type="submit">Pesquisar</button>
+  </form>
+
+</ion-content>
